@@ -1,0 +1,78 @@
+#main{
+    
+    align-items: center;
+}
+.grid_container{
+    display: grid;
+    grid-template-rows: repeat(20,30px);
+    grid-template-columns: repeat(40,30px);
+
+width: 90%;
+margin:auto;
+margin-bottom: 30px;
+
+}
+
+h1{
+    color: blue;
+}
+.grid{
+    border: 1px solid rgb(0, 0, 0);
+    margin: -.5px;
+    font-size: 0.8em;
+}
+.grid_Change
+{
+    border: 1px solid rgb(0, 0,0);
+    margin: -.5px;
+    background-color: blue;
+}
+.grid_des
+{
+border: 1px solid rgb(0, 0,0);
+    margin: -.5px;
+    background-color: rgb(255, 0, 0);
+}
+.grid_visit
+{
+border: 1px solid rgba(0, 0, 0);
+    margin: -.5px;
+    background-color: rgb(0, 170, 255);
+    
+}
+.grid_block
+{
+border: 1px solid rgba(0, 0, 0);
+    margin: -.5px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.grid_source
+{
+border: 1px solid rgb(0, 0,0);
+    margin: -.5px;
+    background-color: rgb(255, 0, 0);
+}
+.grid_path
+{
+  border: 1px solid rgb(0, 0,0);
+    margin: -.5px;
+    background-color: rgb(242, 255, 0);
+    
+}
+.button
+{
+    border: none;
+    border-radius: 30px;
+   display: block;
+ text-align: center;
+   margin:auto ;
+   background-color :aqua;
+   cursor: pointer;
+   padding:  15px 32px;
+   text-decoration: none;
+   font-size: 16px;
+   color: white;
+
+   
+}
